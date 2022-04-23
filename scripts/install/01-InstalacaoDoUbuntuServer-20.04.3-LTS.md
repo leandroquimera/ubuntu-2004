@@ -108,14 +108,14 @@ Instalação do Ubuntu Server: https://ubuntu.com/server/docs/installation
 	_ 		Variant: [English (US)] ou [Portuguese (Brazil)]
 	_ 	<Done>
 	_ 04. Network connections
-	_ 		enp0s3 eth <Enter>
+	_ 		enp3s0 eth <Enter>
 	_ 			Edit IPv4 <Enter>
 	_ 				IPv4 Method: Manual <Enter>
-	_ 					Subnet: 172.16.1.0/24 <Tab>
-	_ 					Address: 172.16.1.20 <Tab>
-	_ 					Gateway: 172.16.1.254 <Tab>
-	_ 					Name servers: 172.16.1.254 <Tab>
-	_ 					Search domains: pti.intra
+	_ 					Subnet: 192.168.0.0/24 <Tab>
+	_ 					Address: 192.168.0.200 <Tab>
+	_ 					Gateway: 192.168.0.1 <Tab>
+	_ 					Name servers: 8.8.8.8, 1.1.1.1 <Tab>
+	_ 					Search domains: qui.intra
 	_ 				<Save>
 	_ 	<Done>
 	_ 05. Configure proxy
@@ -141,11 +141,11 @@ Instalação do Ubuntu Server: https://ubuntu.com/server/docs/installation
 	_	Confirm destructive action
 	_		<Continue>
 	_ 09. Profile setup
-	_ 		Your name: Robson Vaamonde <Tab>
-	_ 		Your server's name: ptispo01ws01 <Tab>
-	_ 		Pick a username: vaamonde <Tab>
-	_ 		Choose a passwords: pti@2018 <Tab>
-	_ 		Confirm your passwords: pti@2018
+	_ 		Your name: Leandro Marques <Tab>
+	_ 		Your server's name: quispo01ws01 <Tab>
+	_ 		Pick a username: quimera <Tab>
+	_ 		Choose a passwords: qui1234 <Tab>
+	_ 		Confirm your passwords: qui1234
 	_ 	<Done>
 	_ 10. SSH Setup
 	_ 		Install OpenSSH server: ON <Space>

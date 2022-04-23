@@ -70,7 +70,7 @@ FQDNSERVER="$NOMESERVER.$DOMINIOSERVER"
 IPV4SERVER="192.168.0.200"
 #
 # Variável do Nome da Interface Lógica do Servidor Ubuntu Server desse curso
-INTERFACE="enp0s3"
+INTERFACE="enp3s0"
 #
 # Variável do arquivo de configuração da Placa de Rede do Netplan do Servidor Ubuntu
 # CUIDADO!!! o nome do arquivo de configuração da placa de rede pode mudar dependendo da 

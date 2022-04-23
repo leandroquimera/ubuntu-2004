@@ -20,7 +20,7 @@ sudo ls /usr/share/X11/locale
 	LANG=pt_BR.UTF-8 (Padrão Português Brasileiro com acentuação)
 sudo locale -a
 sudo locale-gen pt_BR.UTF-8
-sudo localectl set-locale LANG=pt_BR.UTF-8
+sudo localectl set-locale LANG=pt_BR.UTF-8 
 sudo update-locale LANG=pt_BR.UTF-8 LC_ALL=pt_BR.UTF-8 LANGUAGE="pt_BR:pt:en"
 sudo reboot
 #
