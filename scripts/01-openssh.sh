@@ -1,5 +1,6 @@
 #!/bin/bash
 # Autor: Robson Vaamonde
+# Customizado por: Leandro Marques
 # Site: www.procedimentosemti.com.br
 # Facebook: facebook.com/ProcedimentosEmTI
 # Facebook: facebook.com/BoraParaPratica
@@ -8,8 +9,8 @@
 # Instagram: https://www.instagram.com/procedimentoem/?hl=pt-br
 # Github: https://github.com/vaamonde
 # Data de criação: 10/10/2021
-# Data de atualização: 24/02/2022
-# Versão: 0.24
+# Data de atualização: 24/04/2022
+# Versão: 1.00
 # Testado e homologado para a versão do Ubuntu Server 20.04.x LTS x64
 # Testado e homologado para a versão do OpenSSH Server v8.2.x
 #

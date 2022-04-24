@@ -1,4 +1,5 @@
 # Autor: Robson Vaamonde
+# Customizado por: Leandro Marques
 # Site: www.procedimentosemti.com.br
 # Facebook: facebook.com/ProcedimentosEmTI
 # Facebook: facebook.com/BoraParaPratica
@@ -6,8 +7,8 @@
 # Linkedin: https://www.linkedin.com/in/robson-vaamonde-0b029028/
 # Instagram: https://www.instagram.com/procedimentoem/?hl=pt-br
 # Data de criação: 10/10/2021
-# Data de atualização: 03/02/2022
-# Versão: 0.05
+# Data de atualização: 24/04/2022
+# Versão: 1.00
 # Testado e homologado para a versão do Ubuntu Server 20.04.x LTS x64
 # Mais informações veja o arquivo: scripts/settings/04-ConfiguracaoDoNetplan.sh
 # Após as configuração do endereço IPv4 digitar o comando: netplan --debug apply
@@ -19,7 +20,7 @@ network:
   ethernets:
     #
     # Configuração do Nome da Placa de Rede do Ubuntu Server
-    enp0s3:
+    enp3s0:
       #
       # Configuração do Endereço IPv4 Dinâmico via DHCP do Ubuntu Server
       # OBSERVAÇÃO: por padrão o endereço IPv4 dinâmico em servidores não é utilizado
@@ -27,22 +28,22 @@ network:
       #
       # Configuração do Endereço IPv4 e CIDR Estático do Ubuntu Server
       addresses:
-      - 172.16.1.20/24
+      - 192.168.0.200/24
       #
       # Configuração do Endereço de Gateway IPv4 do Ubuntu Server
-      gateway4: 172.16.1.254
+      gateway4: 192.168.0.1
       #
       # Configuração dos Endereços de DNS Server IPv4 do Ubuntu Server
       nameservers:
         addresses:
         #- 172.16.1.20
-        - 172.16.1.254
-        #- 8.8.8.8
-        #- 8.8.8.8
+        #- 172.16.1.254
+        - 8.8.8.8
+        - 1.1.1.1
         #
         # Configuração do Nome de Pesquisa DNS do Ubuntu Server
         search:
-        - pti.intra
+        - qui.intra
         #
   # Configuração da versão do Protocolo Ethernet do Ubuntu Server
   version: 2

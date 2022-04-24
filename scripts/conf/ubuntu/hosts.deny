@@ -1,4 +1,5 @@
 # Autor: Robson Vaamonde
+# Customizado por: Leandro Marques
 # Site: www.procedimentosemti.com.br
 # Facebook: facebook.com/ProcedimentosEmTI
 # Facebook: facebook.com/BoraParaPratica
@@ -6,8 +7,8 @@
 # Linkedin: https://www.linkedin.com/in/robson-vaamonde-0b029028/
 # Instagram: https://www.instagram.com/procedimentoem/?hl=pt-br
 # Data de criação: 11/10/2021
-# Data de atualização: 08/12/2021
-# Versão: 0.02
+# Data de atualização: 24/04/2021
+# Versão: 1.00
 # Testado e homologado para a versão do Ubuntu Server 20.04.x LTS x64
 #
 # Comando utilizado para verificar se o serviço (daemon) de rede tem suporte 
