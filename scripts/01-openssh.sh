@@ -33,12 +33,12 @@
 # Acesso remoto utilizando o GNU/Linux ou Microsoft Windows
 #
 # Linux Mint Terminal: Ctrl+Alt+T
-# 	ssh vaamonde@172.16.1.10
-#	ssh vaamonde@ssh.pti.intra
+# 	ssh quimera@192.168.0.200
+#	ssh quimera@ssh.qui.intra
 #
 # Windows Powershell: Menu, Powershell 
-#	ssh vaamonde@172.16.1.10
-#	ssh vaamonde@ssh.pti.intra
+#	ssh quimera@192.168.0.200
+#	ssh quimera@ssh.qui.intra
 #
 # Linux Mint ou Windows:
 #	apt install putty putty-tools
